@@ -11,7 +11,7 @@ local return_code="%(?..%{$fg_bold[red]%}%? ↵%{$reset_color%})"
 #   echo "$ZSH_THEME_GIT_PROMPT_PREFIX${ref#refs/heads/}$GIT_STATUS$ZSH_THEME_GIT_PROMPT_SUFFIX"
 # }
 
-PROMPT='%{$fg_bold[green]%}%n %{$fg_bold[blue]%}%2~%{$reset_color%} $(git_prompt_info)%{$reset_color%}%B»%b '
+PROMPT='%{$fg_bold[green]%}%n %{$fg_bold[blue]%}%2~%{$reset_color%}$(git_prompt_info)%{$reset_color%}%B»%b '
 RPS1="${return_code}"
 
 ZSH_THEME_GIT_PROMPT_PREFIX=" %{$fg_bold[white]%}("
